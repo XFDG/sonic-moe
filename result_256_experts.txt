@@ -1,8 +1,0 @@
-🚀 开始测试: Tokens=32768, 专家总数=256, 每次激活专家=8, 激活函数=swiglu
-Traceback (most recent call last):
-  File "/workspace/sonic-moe/benchmarks/moe-cute.py", line 89, in <module>
-    run(args.thiek, args.activation, args.skip_test)
-  File "/workspace/sonic-moe/benchmarks/moe-cute.py", line 55, in run
-    moe = MoE(
-          ^^^^
-TypeError: MoE.__init__() missing 2 required positional arguments: 'add_bias' and 'std'
