@@ -1,0 +1,38 @@
+=== SonicMoE H100 性能测试报告 ===
+测试时间: Tue Feb  3 18:58:35 PST 2026
+-----------------------------------
+--- [Test 1: Standard] ---
+
+🚀 开始测试配置: Tokens(T)=4096, Hidden(H)=4096, Intermediate(I)=1024, Experts(E)=128, Top-K(K)=8
+
+⏱️  正在进行性能测试 (Warmup + Benchmark)...
+ninja: no work to do.
+   [Mode: Training Fwd] Average time: 3.049 ms, TFLOPS: 270.5
+   [Mode: Inference   ] Average time: 2.792 ms, TFLOPS: 295.4
+   [Mode: Train Full  ] Average time: 8.922 ms, TFLOPS: 277.3
+------------------------------------------------------------
+TEST FINISHED (PASS)
+
+--- [Test 2: High Throughput] ---
+
+🚀 开始测试配置: Tokens(T)=32768, Hidden(H)=4096, Intermediate(I)=1024, Experts(E)=128, Top-K(K)=8
+
+⏱️  正在进行性能测试 (Warmup + Benchmark)...
+ninja: no work to do.
+   [Mode: Training Fwd] Average time: 16.779 ms, TFLOPS: 393.2
+   [Mode: Inference   ] Average time: 15.245 ms, TFLOPS: 432.7
+   [Mode: Train Full  ] Average time: 47.417 ms, TFLOPS: 417.4
+------------------------------------------------------------
+TEST FINISHED (PASS)
+
+--- [Test 3: More Experts] ---
+
+🚀 开始测试配置: Tokens(T)=4096, Hidden(H)=4096, Intermediate(I)=1024, Experts(E)=256, Top-K(K)=8
+
+⏱️  正在进行性能测试 (Warmup + Benchmark)...
+ninja: no work to do.
+   [Mode: Training Fwd] Average time: 3.925 ms, TFLOPS: 210.1
+   [Mode: Inference   ] Average time: 3.907 ms, TFLOPS: 211.1
+   [Mode: Train Full  ] Average time: 12.702 ms, TFLOPS: 194.8
+------------------------------------------------------------
+TEST FINISHED (PASS)

@@ -1,0 +1,11 @@
+=== SonicMoE H100 性能测试报告 ===
+测试时间: Tue Feb  3 18:57:47 PST 2026
+-----------------------------------
+--- [Test 1: Standard] ---
+python: can't open file '/workspace/sonic-moe/moe_annotated_report.py': [Errno 2] No such file or directory
+
+--- [Test 2: High Throughput] ---
+python: can't open file '/workspace/sonic-moe/moe_annotated_report.py': [Errno 2] No such file or directory
+
+--- [Test 3: More Experts] ---
+python: can't open file '/workspace/sonic-moe/moe_annotated_report.py': [Errno 2] No such file or directory
