@@ -1,0 +1,32 @@
+T 32768, I 1024, H 4096, E 128, K 8
+ninja: no work to do.
+max ref o val 0.044922
+mean ref o val 0.006042
+max abs diff on o 0.000488
+mean rel diff on o 0.017109
+
+max abs ref value dx 0.061768
+mean abs ref value dx 0.008606
+max abs diff on dx 0.000732
+mean rel diff on dx 0.024048
+
+max abs ref value dw2 0.236328
+mean abs ref value dw2 0.030273
+max abs diff on dw2 0.000977
+mean rel diff on dw2 0.019775
+
+max abs ref value dw1 0.250000
+mean abs ref value dw1 0.030396
+max abs diff on dw1 0.000977
+mean rel diff on dw1 0.016113
+
+max abs ref value drouter_w 1.500000
+mean abs ref value drouter_w 0.232422
+max abs diff on drouter_w 0.007812
+mean rel diff on drouter_w 0.025879
+
+ Cute-DSL Fwd Average time: 15.693 ms, TFLOPS: 420.4
+ Cute-DSL Fwd, inference mode, Average time: 15.491 ms, TFLOPS: 425.9
+ Cute-DSL Fwd + Bwd Average time: 47.860 ms, TFLOPS: 413.5
+ Cute-DSL Bwd Average time: 32.168 ms, TFLOPS: 410.2
+PASS
